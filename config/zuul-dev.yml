@@ -1,4 +1,6 @@
 spring:
+  cloud:
+    override-none: true
   application:
     name: zuul
     
