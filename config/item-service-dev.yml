@@ -2,9 +2,10 @@ server:
   port: 8081
 
 spring:
-  cloud:
-    override-none: true
-  application:
+ cloud:
+    config:
+      override-none: true
+ application:
     name: item-service
     
 eureka:
