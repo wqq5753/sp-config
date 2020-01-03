@@ -8,8 +8,10 @@ spring:
       override-none: true
  application:
     name: user-service
+    
 server:
   port: 8082
+  
 eureka:
   client:
     service-url:
@@ -17,6 +19,6 @@ eureka:
       
 management:
   endpoints:
-   web:
-    exposure:
-     include: refresh
+    web:
+      exposure:
+        include: refresh
